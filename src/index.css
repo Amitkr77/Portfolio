@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar */
+body {
+    margin: 0;
+    overflow: hidden; /* Hide the scrollbar */
+    height: 100%;
+  }
+  
+  /* Enable smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  
+ 
+  
+  /* Add this CSS to your stylesheet */
+
+.about-link .rotate-arrow {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Rotate the arrow when the link is hovered */
+.about-link:hover .rotate-arrow {
+  transform: rotate(90deg); /* Rotate the arrow to point downward */
+}
