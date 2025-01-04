@@ -2,7 +2,6 @@
 import React from "react";
 import JelloAnimation from "../components/JelloAnimation";
 import dots from "../assets/side-dots.png";
-import robot from "../assets/robot-character.svg";
 
 const Home = ({ handleClick }) => {
   return (
@@ -13,7 +12,7 @@ const Home = ({ handleClick }) => {
         className="absolute top-1/2 transform -translate-y-1/2 -right-1/2  "
       />
 
-      <div className="absolute -bottom-72 -left-60 rotate-180">
+      <div className="absolute -bottom-72 -left-60 rotate-180 z-20">
         <svg
           width="600"
           height="600"

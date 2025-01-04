@@ -95,7 +95,7 @@ function App() {
           ))}
         </div>
 
-        <div className="fixed right-12 top-1/2 transform -translate-y-1/2 flex flex-col items-center justify-between">
+        <div className="fixed right-12 top-1/2 transform -translate-y-1/2 flex flex-col items-center justify-between z-50">
           {/* Single Bar for indicator movement */}
           <div
             className="absolute w-[2px] rounded-full bg-gray-400 transition-all duration-300 ease-in-out"

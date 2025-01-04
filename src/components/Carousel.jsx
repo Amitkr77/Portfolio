@@ -79,7 +79,7 @@
     };
 
     return (
-      <div className="relative flex items-center justify-center bg-transparent text-white p-6 rounded-lg">
+      <div className="relative flex items-center justify-center bg-transparent text-white p-6 rounded-lg z-20">
         {/* Previous Arrow */}
         {/* <button
           className="absolute left-4 top-1/2 transform -translate-y-1/2 p-4 bg-gray-800 rounded-full shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out"
@@ -110,7 +110,7 @@
                 of the client's business. If you want to see more examples of my
                 work than the ones showcased in this site, please contact me!
               </h1>
-              <button className="text-purple-500 font-semibold" onClick={handleNext}>See projects {" >"}</button>
+              <button className="text-purple-500 font-semibold hover:scale-125 transition-all duration-300" onClick={handleNext}>See projects {" >"}</button>
             </div>
           ) : (
             <div className="flex-1 flex justify-between items-center space-x-6">

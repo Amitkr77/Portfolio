@@ -9,6 +9,8 @@ export const NodeJs = () => (
     width="100"
     height="100"
     viewBox="0 0 48 48"
+    className="hover:scale-125 transition-all duration-500"
+
   >
     <path
       fill="#388e3c"
@@ -41,6 +43,8 @@ export const JavaScript = () => (
     width="100"
     height="100"
     viewBox="0 0 48 48"
+    className="hover:scale-125 transition-all duration-500"
+
   >
     <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
     <path
@@ -56,6 +60,7 @@ export const ReactJs = () => (
     height="100px"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
+    className="hover:scale-125 transition-all duration-500"
   >
     <g fill="#00D8FF" fillRule="evenodd">
       <circle cx="11.996" cy="11.653" r="2.142" />
@@ -75,6 +80,8 @@ export const Html = () => (
     width="100"
     height="100"
     viewBox="0 0 48 48"
+    className="hover:scale-125 transition-all duration-500"
+
   >
     <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
     <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
@@ -97,6 +104,7 @@ export const Git = () => (
     width="100"
     height="100"
     viewBox="0 0 48 48"
+    className="hover:scale-125 transition-all duration-500"
   >
     <path
       fill="#F4511E"
@@ -113,6 +121,8 @@ export const VsCode = () => (
     width="100"
     height="100"
     viewBox="0 0 48 48"
+    className="hover:scale-125 transition-all duration-500"
+
   >
     <path
       fill="#29b6f6"
@@ -137,6 +147,8 @@ export const TailwindCss = () => (
     width="100"
     height="100"
     viewBox="0 0 48 48"
+    className="hover:scale-125 transition-all duration-500"
+
   >
     <path
       fill="#00acc1"
@@ -152,6 +164,8 @@ export const Postman = () => (
     viewBox="0 0 256 256"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
+    className="hover:scale-125 transition-all duration-500"
+
   >
     <g>
       <path
@@ -246,6 +260,8 @@ export const Postman = () => (
 
 export const MongoDb = () => (
   <svg xmlns="http://www.w3.org/2000/svg"  x="0px"
+  className="hover:scale-125 transition-all duration-500"
+
   y="0px"
   width="100"
   height="100"
@@ -357,6 +373,8 @@ export const Figma = () => (
     width="100"
     height="100"
     viewBox="0 0 48 48"
+    className="hover:scale-125 transition-all duration-500"
+
   >
     <linearGradient
       id="q17mbB32E_FbIzPpfjq_Ta_W0YEwBDDfTeu_gr1"
@@ -447,6 +465,8 @@ export const Canva = () => (
     width="100"
     height="100"
     viewBox="0 0 48 48"
+    className="hover:scale-125 transition-all duration-500"
+
   >
     <linearGradient
       id="N8aMJ-jZ4-cfldZrsnvhda_iWw83PVcBpLw_gr1"
@@ -482,6 +502,8 @@ export const MySql = () => (
     height="100px"
     viewBox="-18.458 -22.75 191.151 191.151"
     xmlns="http://www.w3.org/2000/svg"
+    className="hover:scale-125 transition-all duration-500"
+
   >
     <path d="M-18.458 6.58h191.151v132.49H-18.458V6.58z" fill="none" />
     <path

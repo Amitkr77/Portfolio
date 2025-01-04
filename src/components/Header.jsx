@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="fixed top-0 z-10 bg-transparent w-full text-white flex justify-between p-5 md:p-9">
+    <div className="fixed top-0 z-30 bg-transparent w-full text-white flex justify-between p-5 md:p-9 ">
       <a href="#about" className="flex items-center">
         <svg
           width="40"

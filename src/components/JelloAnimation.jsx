@@ -10,7 +10,7 @@ const JelloAnimation = ({ text, wordSpacing = "space-x-4" }) => {
         {words.map((word, wordIndex) => (
           <span key={wordIndex} className="flex gap-1">
             {word.split("").map((char, letterIndex) => (
-              <span key={letterIndex} className="letter inline-block hover:text-orange-700 cursor-default">
+              <span key={letterIndex} className="letter inline-block hover:text-[#9C27B0] cursor-default">
                 {char}
               </span>
             ))}
