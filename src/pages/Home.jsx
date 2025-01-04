@@ -3,6 +3,7 @@ import React from "react";
 import JelloAnimation from "../components/JelloAnimation";
 import dots from "../assets/side-dots.png";
 
+
 const Home = ({ handleClick }) => {
   return (
     <section className="relative h-screen w-full bg-black text-white flex   ">
@@ -155,6 +156,10 @@ const Home = ({ handleClick }) => {
             </svg>
           </span>
         </button>
+      </div>
+
+      <div className="absolute top-96 right-96">
+        <robot width="200" height="200" />{" "}
       </div>
     </section>
   );
