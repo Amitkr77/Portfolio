@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="fixed top-0 z-30 bg-transparent w-full text-white flex justify-between p-5 md:p-9 ">
+    <div className="fixed top-0 left-0 z-30 bg-transparent w-full text-white flex justify-between items-center p-4 md:p-6 lg:p-8">
+      {/* Logo Section */}
       <a href="#about" className="flex items-center">
         <svg
           width="40"
@@ -10,6 +11,7 @@ export default function Header() {
           viewBox="0 0 90 71"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-auto md:h-8"
         >
           <rect x="6" y="10" width="35" height="52" fill="#000000"></rect>
           <path
@@ -25,9 +27,18 @@ export default function Header() {
             fill="#000000"
           ></rect>
         </svg>
-        <h1 className="ml-2 text-2xl md:text-3xl tracking-widest">DVLPR</h1>
+        <h1 className="ml-2 text-2xl md:text-3xl lg:text-4xl tracking-widest font-semibold">
+          DVLPR
+        </h1>
       </a>
-      <a href="#" className="text-lg md:text-2xl px-4 py-1 rounded-md border-2">Contact</a>
+
+      {/* Contact Button */}
+      <a
+        href="#contact"
+        className="hidden md:block text-lg md:text-xl lg:text-2xl px-4 py-2 rounded-md border-2 hover:bg-white hover:text-black transition-all duration-300"
+      >
+        Contact
+      </a>
     </div>
   );
 }

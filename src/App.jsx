@@ -101,7 +101,6 @@ function App() {
             className="absolute w-[2px] rounded-full bg-gray-400 transition-all duration-300 ease-in-out"
             style={{
               height: "30px",
-              top: "50%",
               left: "50%",
               transform: `translateX(-50%,-50%)`,
               top: `${
