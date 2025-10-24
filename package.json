@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.17.5",
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-globe": "^5.0.2",
+    "react-lottie": "^1.2.10",
     "react-svg": "^16.2.0",
     "three": "^0.171.0"
   },

@@ -10,7 +10,7 @@ import Skills from "./pages/Skills";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0);
-  const [isScrolling, setIsScrolling] = useState(false); // Prevent multiple rapid scrolls
+  const [isScrolling, setIsScrolling] = useState(false); 
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const sections = ["home", "about", "skills", "projects", "contact"];
